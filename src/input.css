@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-order {
+    @apply bg-orange-400 text-white text-sm py-1.5 px-3 rounded-full hover:bg-orange-500;
+  }
+}
